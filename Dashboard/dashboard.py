@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-data = pd.read_csv("D:/DBS-coding-camp/air-quality-dashboard\Dashboard/all_data.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/Alfan345/air-quality-data-analys/refs/heads/main/Dashboard/all_data.csv")
 data['datetime'] = pd.to_datetime(data['datetime'])
 
 # Warna kategori kualitas udara
