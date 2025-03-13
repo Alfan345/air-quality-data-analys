@@ -5,25 +5,25 @@ Proyek ini mencakup analisis data kualitas udara serta visualisasi dalam bentuk 
 
 ## Streamlit
 
-## Set Up Environment
-1. Open your code editor (VScode reccomended)
-2. Open the vscode terminal and clone this repository
+## Set Up Environment - Anaconda
+1. Make python environment
+   ```
+   conda create --name main-ds python=3.12
+   conda activate main-ds
+   pip install -r requirements.txt
+   ```
+3. clone this repository
    ```
    git clone https://github.com/Alfan345/air-quality-data-analys.git
    ```
-3. install the requirement.txt
-   ```
-   pip install requirement.txt
-   ```
 
 ## Run the streamlit
-1. Open your command line or other terminal
-2. run the streamlit with
+1. run the streamlit with
    ```
    streamlit run [your streamlit file path]
    ```
    example
    ```
-   streamlit run D:\DBS-coding-camp\dashboard\dash.py
+   streamlit run D:\DBS-coding-camp\Dashboard\dashboard.py
    ```
 3. If you want to end the streamlit, press ctrl + c on the terminal
