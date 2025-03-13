@@ -4,6 +4,7 @@
 Proyek ini mencakup analisis data kualitas udara serta visualisasi dalam bentuk dashboard interaktif menggunakan **Streamlit**. 
 
 ## Streamlit
+[Air quality dashboard](https://alfan-air-quality-dashboard.streamlit.app/)
 
 ## Set Up Environment - Anaconda
 1. Make python environment
